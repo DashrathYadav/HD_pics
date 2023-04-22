@@ -1,0 +1,28 @@
+.list{
+    background-color:whitesmoke;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.list input{
+
+    /* border-style: none; */
+    height: 30px;
+    padding: 10px;
+}
+#pageNo{
+
+    /* border-style: none; */
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+}
+

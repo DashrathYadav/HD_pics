@@ -1,0 +1,36 @@
+
+
+.btn{
+    text-decoration: none;
+    color:black;
+    background-color:pink;
+    padding:10px 20px;
+    border-radius: 10px; 
+    box-shadow:1px 4px 4px rgba(0,0,0,.3);
+    position: relative;
+    overflow: hidden;
+     
+}
+.btn::before{
+    position: absolute;
+    content: "";
+    height:0px;
+    width:0px;
+    background-color:orange;
+    left:var(--xpos);
+    top:var(--ypos);
+    border-radius: 50px;
+    transform: translate(-50%,-50%);
+    transition: width 0.6s, height 0.5s;
+    
+}
+
+.btn:hover::before{
+    width: 300px;
+    height:300px;
+
+}
+.btn span{
+    position: relative;
+    z-index: 1;
+}

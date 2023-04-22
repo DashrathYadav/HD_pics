@@ -1,0 +1,15 @@
+.card{
+ /* background-color: black; */
+ width: 400px;
+ display: flex;
+ align-items: center;
+ justify-content:center;
+
+}
+ a{
+    width: 100%;
+}
+.card img{
+    width: 100%;
+
+}

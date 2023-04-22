@@ -1,0 +1,15 @@
+
+.experience{
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+.experience img{
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+}
